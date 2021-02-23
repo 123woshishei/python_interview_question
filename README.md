@@ -326,7 +326,7 @@ https://stackoverflow.com/questions/30294146/python-fastest-way-to-process-large
 
 ###  2.补充缺失的代码
 ```python
-def print_directory_contents(sPath):
+def print_directory_contents(s_path):
 """
 这个函数接收文件夹的名称作为输入参数
 返回该文件夹中文件的路径
@@ -388,7 +388,7 @@ d = {k:int(v) for t in str1.split("|") for k, v in (t.split(":"), )}
 ### 9.请按alist中元素的age由大到小排序
 ```python
 alist = [{'name':'a','age':20},{'name':'b','age':30},{'name':'c','age':25}]
-def sort_by_age(list1):
+def sort_by_age(alist):
     return sorted(alist,key=lambda x:x['age'],reverse=True)
 ```
 ### 10.下面代码的输出结果将是什么？
